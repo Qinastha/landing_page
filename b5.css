@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: rgba(244, 239, 253, 1);
+}
+
+main {
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width:992px) {
+    .custom_links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact {
+        justify-self: end;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+
+
+.nav {
+    width: 100%;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #784DC7;
+    text-align: center;
+
+}
+
+.logo {
+    width: 27px;
+    height: 27px;
+}
+
+.navbar-brand {
+    height: 27px;
+    gap: 5px;
+    color: rgba(41, 41, 41, 1);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    position: relative;
+}
+
+.navbar-toggler {
+    background-color: #784DC7;
+}
+
+
+.nav-link {
+    color: #292929;
+    font-family: "Gotham";
+    font-weight: 400;
+    line-height: 20px;
+    gap: 5px;
+    letter-spacing: -1;
+
+
+
+}
+
+.contact {
+    color: #784DC7;
+    font-size: 1rem;
+    background-color: rgba(233, 223, 252, 1);
+    border-radius: 15px;
+
+}
+
+.product {
+    height: 600px;
+    overflow-x: hidden;
+    border-bottom: 1px solid #784DC7;
+}
+
+.side-picture {
+    width: 30%;
+    height: 100%;
+}
+
+.side-picture img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.elipse_1 {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    left: 5%;
+}
+
+.vintage_1 {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+
+}
+
+.h1 {
+    opacity: 0.90;
+    color: #925FF0;
+    font-size: 7rem;
+    font-family: "Anton";
+    font-weight: 1000;
+    word-wrap: break-word;
+    text-align: center;
+    align-content: center;
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url("./assets/fonts/Anton-Regular.ttf");
+}
+
+.title-product {
+    width: 40%;
+}
+
+.elipse_2 {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    right: -5%;
+
+}
+
+.vintage_2 {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    right: -5%;
+
+}
+
+.arrow {
+    height: 150px;
+    width: 100px;
+
+}
+
+.description {
+    height: auto;
+    border-bottom: 1px solid #784DC7;
+}
+
+.andrea {
+    gap: 40px;
+    max-width: fit-content;
+    text-align: start;
+    padding-left: 4rem;
+
+}
+
+.mendez {
+    word-break: keep-all;
+    font-size: 3rem;
+    font-weight: 400;
+    gap: 30px;
+    font-family: "Anton";
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(./assets/fonts/Lato-ThinItalic.ttf);
+}
+
+.history_text {
+    font-family: "Lato, sans-serif";
+
+}
+
+.photoshop {
+    width: auto;
+    padding-bottom: 8%;
+}
+
+.girl img {
+    width: 100%;
+}
+
+.grid1 {
+    background-color: #E9DFFC;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.num {
+    font-size: 1.8rem;
+    letter-spacing: -1.2px;
+    font-family: "Lato, sans-serif";
+    font-weight: 900;
+}
+
+.filling {
+    font-family: "Anton";
+    font-size: 3rem;
+}
+
+.skills {
+    text-align: center;
+    font-family: "Anton";
+}
+
+.footer {
+    background-color: black;
+}
+
+.footerbrand {
+    color: white;
+
+}
+
+.footerlist {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.footeritem {
+    gap: 10px;
+    letter-spacing: -1;
+    align-items: center;
+}
+
+.fa-brands {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.6rem;
+    color:white;
+}
+
+
+#invert {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    border: none;
+    font-weight: 1000;
+    border-radius: 3rem;
+    width: 10rem;
+    color: #784DC7;
+    background-color: rgba(233, 223, 252, 1);
+}
+
+
+.dark {
+    color: hotpink;
+    background-color: black;
+}
+
+.dark .nav-link, .dark .navbar-brand {
+    color: white;
+}
+
+.dark .footer {
+    background-color: #E9DFFC;
+}
+
+.dark .footerbrand, .dark .fa-brands {
+    color: hotpink;
+}
+
+.dark .contact {
+    background-color: black;
+    color: hotpink;
+}
