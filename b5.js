@@ -32,8 +32,3 @@ if (document.querySelector(".dark")) {
 function fun() {
     alert("Nice number bro");
 }
-
-let conf = confirm("You must be over 18y.o. to visit this page");
-let Name = prompt("Please enter your name", "porn_lover");
-let age = prompt("How old are you?", "");
-
